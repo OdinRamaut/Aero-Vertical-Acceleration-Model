@@ -1,4 +1,36 @@
+# =========================
+# Python
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+
+# Data and Notebooks
+*.hdf5
+*.h5
+*.csv
+*.npz
+*.npy
+.ipynb_checkpoints/
+
+# =========================
+# PyCharm / IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+
 /data/
-/.venv/
 /logs/
-/.idea/
